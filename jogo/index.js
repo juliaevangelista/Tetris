@@ -1,8 +1,8 @@
 // Definindo constantes
 const gridWidth = 10 // Largura do Grid
-const shapeFreezeAudio = new Audio("forma-congela.mp3") // Áudio para quando a forma congela
-const completedLineAudio = new Audio("linha-completa.mp3") // Áudio para quando uma linha é completada
-const gameOverAudio = new Audio("game-over.mp3") // Áudio para o fim do jogo
+const shapeFreezeAudio = new Audio("sons/forma-congela.mp3") // Áudio para quando a forma congela
+const completedLineAudio = new Audio("sons/linha-completa.mp3") // Áudio para quando uma linha é completada
+const gameOverAudio = new Audio("sons/game-over.mp3") // Áudio para o fim do jogo
 
 const colors = ["blue", "yellow", "red", "orange", "pink"] // Array de cores para as formas
 let currentColor = Math.floor(Math.random() * colors.length) // Seleciona aleatoriamente uma cor para a forma atual
